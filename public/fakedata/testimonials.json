@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"authorName": "Client Representative",
+		"authorDesig": "ISMS & VAPT Services",
+		"img": "/images/testimonial/client-1.webp",
+		"img2": "/images/testimonial/h3-test-1.png",
+		"logoImg": "/img/testimonials/logo/1.png",
+		"logoImgLight": "/img/testimonials/logo/1-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+		"desc": "Firstglobal.io has provided exceptional reliability and professional support for our ISMS & VAPT services. Their team's expertise and commitment to excellence have been instrumental in maintaining our security standards.",
+		"desc2": "Firstglobal.io has provided exceptional reliability and professional support for our ISMS & VAPT services. Their team's expertise and commitment to excellence have been instrumental in maintaining our security standards. We truly appreciate their professional approach."
+	},
+	{
+		"id": 2,
+		"authorName": "Operations Manager",
+		"authorDesig": "Enterprise Client",
+		"img": "/images/testimonial/client-2.webp",
+		"img2": "/images/testimonial/client-2.webp",
+		"logoImg": "/img/testimonials/logo/2.png",
+		"logoImgLight": "/img/testimonials/logo/2-dark.png",
+		"thumbImg": "/img/testimonials/user/h10-test.png",
+		"desc": "The timely operations management provided by Firstglobal.io has been outstanding. Their excellent back-end support structure for both clients and staff ensures smooth operations and peace of mind.",
+		"desc2": "The timely operations management provided by Firstglobal.io has been outstanding. Their excellent back-end support structure for both clients and staff ensures smooth operations and peace of mind. We highly recommend their services."
+	},
+	{
+		"id": 3,
+		"authorName": "Facility Director",
+		"authorDesig": "Corporate Client",
+		"img": "/images/testimonial/client-3.webp",
+		"img2": "/images/testimonial/h3-test-3.png",
+		"logoImg": "/img/testimonials/logo/1.png",
+		"logoImgLight": "/img/testimonials/logo/1-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+		"desc": "We appreciate the cleanliness and safety provided by Firstglobal.io's trained housekeeping personnel. Their responsiveness to requests, including compliance and salary commitments, demonstrates their professionalism and reliability.",
+		"desc2": "We appreciate the cleanliness and safety provided by Firstglobal.io's trained housekeeping personnel. Their responsiveness to requests, including compliance and salary commitments, demonstrates their professionalism and reliability. They have become an essential partner for us."
+	},
+	{
+		"id": 4,
+		"authorName": "Security Manager",
+		"authorDesig": "Multinational Corporation",
+		"img": "/images/testimonial/client-1.webp",
+		"img2": "/images/testimonial/client-3.webp",
+		"logoImg": "/img/testimonials/logo/2.png",
+		"logoImgLight": "/img/testimonials/logo/2-dark.png",
+		"thumbImg": "/img/testimonials/user/h10-test.png",
+		"desc": "Firstglobal.io's comprehensive security solutions have exceeded our expectations. Their team's professionalism, attention to detail, and innovative approaches have significantly enhanced our security posture.",
+		"desc2": "Firstglobal.io's comprehensive security solutions have exceeded our expectations. Their team's professionalism, attention to detail, and innovative approaches have significantly enhanced our security posture. We value their partnership."
+	},
+	{
+		"id": 5,
+		"authorName": "Executive Director",
+		"authorDesig": "Business House",
+		"img": "/images/testimonial/client-2.webp",
+		"img2": "/images/testimonial/h3-test-1.png",
+		"logoImg": "/img/testimonials/logo/1.png",
+		"logoImgLight": "/img/testimonials/logo/1-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+		"desc": "The reliability and professional support from Firstglobal.io have been exceptional. Their commitment to compliance and timely service delivery has made them a trusted partner for our organization.",
+		"desc2": "The reliability and professional support from Firstglobal.io have been exceptional. Their commitment to compliance and timely service delivery has made them a trusted partner for our organization. We are very satisfied with their services."
+	},
+	{
+		"id": 6,
+		"authorName": "HR Director",
+		"authorDesig": "Industrial Client",
+		"img": "/images/testimonial/client-3.webp",
+		"img2": "/images/testimonial/h3-test-2.png",
+		"logoImg": "/img/testimonials/logo/2.png",
+		"logoImgLight": "/img/testimonials/logo/2-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+		"desc": "Firstglobal.io's excellent back-end support structure has been crucial for both our clients and staff. Their responsiveness and commitment to maintaining high standards have been impressive.",
+		"desc2": "Firstglobal.io's excellent back-end support structure has been crucial for both our clients and staff. Their responsiveness and commitment to maintaining high standards have been impressive. We continue to rely on their expertise."
+	}
+]

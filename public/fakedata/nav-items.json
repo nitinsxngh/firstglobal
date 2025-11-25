@@ -1,0 +1,289 @@
+[
+	{
+		"id": 1,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Security Services",
+				"icon": "tji-service-1",
+				"path": "/services/security-services"
+			},
+			{
+				"id": 2,
+				"name": "Manned Guarding",
+				"icon": "tji-service-2",
+				"path": "/services/manned-guarding"
+			},
+			{
+				"id": 3,
+				"name": "Escort Guarding",
+				"icon": "tji-service-3",
+				"path": "/services/escort-guarding"
+			},
+			{
+				"id": 4,
+				"name": "Event Protection",
+				"icon": "tji-service-4",
+				"path": "/services/event-protection"
+			},
+			{
+				"id": 5,
+				"name": "Executive Security",
+				"icon": "tji-service-5",
+				"path": "/services/executive-security"
+			},
+			{
+				"id": 6,
+				"name": "Security Training",
+				"icon": "tji-service-6",
+				"path": "/services/security-training"
+			},
+			{
+				"id": 7,
+				"name": "Travel Security Support",
+				"icon": "tji-service-1",
+				"path": "/services/travel-security-support"
+			},
+			{
+				"id": 8,
+				"name": "Railways Gate Security Management",
+				"icon": "tji-service-2",
+				"path": "/services/railways-gate-security"
+			},
+			{
+				"id": 9,
+				"name": "Facility Management",
+				"icon": "tji-service-3",
+				"path": "/services/facility-management"
+			},
+			{
+				"id": 10,
+				"name": "Janitorial and Pantry Services",
+				"icon": "tji-service-4",
+				"path": "/services/janitorial-pantry"
+			},
+			{
+				"id": 11,
+				"name": "Washroom Hygiene and Pest Control",
+				"icon": "tji-service-5",
+				"path": "/services/washroom-hygiene-pest-control"
+			},
+			{
+				"id": 12,
+				"name": "Carpet Shampooing",
+				"icon": "tji-service-6",
+				"path": "/services/carpet-shampooing"
+			},
+			{
+				"id": 13,
+				"name": "Mechanized Housekeeping Services",
+				"icon": "tji-service-1",
+				"path": "/services/mechanized-housekeeping"
+			},
+			{
+				"id": 14,
+				"name": "Electromechanical Services",
+				"icon": "tji-service-2",
+				"path": "/services/electromechanical-services"
+			},
+			{
+				"id": 15,
+				"name": "COVID Sanitization",
+				"icon": "tji-service-3",
+				"path": "/services/covid-sanitization"
+			},
+			{
+				"id": 16,
+				"name": "Customer Facilitation Services/Ticketing",
+				"icon": "tji-service-4",
+				"path": "/services/customer-facilitation-ticketing"
+			},
+			{
+				"id": 17,
+				"name": "Information Security",
+				"icon": "tji-service-5",
+				"path": "/services/information-security"
+			},
+			{
+				"id": 18,
+				"name": "Visitor Management",
+				"icon": "tji-service-6",
+				"path": "/services/visitor-management"
+			},
+			{
+				"id": 19,
+				"name": "Surveillance",
+				"icon": "tji-service-1",
+				"path": "/services/surveillance"
+			},
+			{
+				"id": 20,
+				"name": "Parking Management",
+				"icon": "tji-service-2",
+				"path": "/services/parking-management"
+			},
+			{
+				"id": 21,
+				"name": "Integrated Smart Traffic Management",
+				"icon": "tji-service-3",
+				"path": "/services/smart-traffic-management"
+			},
+			{
+				"id": 22,
+				"name": "Incidence Response Mechanism",
+				"icon": "tji-service-4",
+				"path": "/services/incidence-response"
+			},
+			{
+				"id": 23,
+				"name": "Perimeter Protection",
+				"icon": "tji-service-5",
+				"path": "/services/perimeter-protection"
+			},
+			{
+				"id": 24,
+				"name": "Vendor Management",
+				"icon": "tji-service-6",
+				"path": "/services/vendor-management"
+			},
+			{
+				"id": 25,
+				"name": "Access Control",
+				"icon": "tji-service-1",
+				"path": "/services/access-control"
+			},
+			{
+				"id": 26,
+				"name": "Skills & Training",
+				"icon": "tji-service-2",
+				"path": "/services/skills-training"
+			},
+			{
+				"id": 27,
+				"name": "Soft Skills",
+				"icon": "tji-service-3",
+				"path": "/services/soft-skills"
+			},
+			{
+				"id": 28,
+				"name": "Grooming Sessions",
+				"icon": "tji-service-4",
+				"path": "/services/grooming-sessions"
+			},
+			{
+				"id": 29,
+				"name": "Greeting Etiquettes and Basic Manners",
+				"icon": "tji-service-5",
+				"path": "/services/greeting-etiquettes"
+			},
+			{
+				"id": 30,
+				"name": "Language Training",
+				"icon": "tji-service-6",
+				"path": "/services/language-training"
+			},
+			{
+				"id": 31,
+				"name": "Book Keeping",
+				"icon": "tji-service-1",
+				"path": "/services/book-keeping"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Industries",
+		"path": "/industries",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Healthcare",
+				"path": "/industries/healthcare"
+			},
+			{
+				"id": 2,
+				"name": "Financial Services",
+				"path": "/industries/financial-services"
+			},
+			{
+				"id": 3,
+				"name": "Manufacturing",
+				"path": "/industries/manufacturing"
+			},
+			{
+				"id": 4,
+				"name": "Retail & E-commerce",
+				"path": "/industries/retail-ecommerce"
+			},
+			{
+				"id": 5,
+				"name": "Technology",
+				"path": "/industries/technology"
+			},
+			{
+				"id": 6,
+				"name": "Energy & Utilities",
+				"path": "/industries/energy-utilities"
+			},
+			{
+				"id": 7,
+				"name": "Education",
+				"path": "/industries/education"
+			},
+			{
+				"id": 8,
+				"name": "Real Estate",
+				"path": "/industries/real-estate"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Sustainable Impact",
+		"path": "/sustainable-impact",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Environmental Sustainability",
+				"path": "/sustainable-impact/environmental"
+			},
+			{
+				"id": 2,
+				"name": "Social Responsibility",
+				"path": "/sustainable-impact/social-responsibility"
+			},
+			{
+				"id": 3,
+				"name": "ESG Reporting",
+				"path": "/sustainable-impact/esg-reporting"
+			},
+			{
+				"id": 4,
+				"name": "Carbon Footprint Reduction",
+				"path": "/sustainable-impact/carbon-footprint"
+			},
+			{
+				"id": 5,
+				"name": "Sustainable Supply Chain",
+				"path": "/sustainable-impact/supply-chain"
+			},
+			{
+				"id": 6,
+				"name": "Community Impact",
+				"path": "/sustainable-impact/community-impact"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "About",
+		"path": "/about"
+	},
+	{
+		"id": 5,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]

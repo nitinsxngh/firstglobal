@@ -1,0 +1,292 @@
+[
+	{
+		"id": 1,
+		"title": "Samsung India Plants, Noida",
+		"title2": "Security & Facility Management",
+		"titleLarge": "Comprehensive Security and Facility Management Solutions for Samsung Manufacturing Facilities",
+		"img": "/images/project/project-1.webp",
+		"img2": "/images/project/project-1.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h9-project-1.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"desc": "First Global provides comprehensive security and facility management services for Samsung's manufacturing plants in Noida, ensuring round-the-clock protection and operational excellence.",
+		"shortDesc": "Comprehensive security and facility management for manufacturing facilities",
+		"desc1": "First Global has been successfully managing security and facility operations for Samsung India's manufacturing plants in Noida. Our services include manned guarding, access control, surveillance, and integrated facility management to ensure seamless operations.",
+		"desc2": "With a dedicated team of trained security personnel and facility management experts, we maintain the highest standards of safety and operational efficiency. Our app-based real-time monitoring system provides instant updates and ensures complete visibility of all operations.",
+
+		"category": "Security",
+		"featured": true,
+		"featuredDesc": "Delivering comprehensive security and facility management solutions for one of India's leading manufacturing facilities.",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "First Global Team",
+			"desig": "Security & Facility Management",
+			"img": "/img/project/project-1.png"
+		},
+		"tags": ["Security Services", "Facility Management"],
+		"dataFilter": "Security",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Security & Facility Management"
+			},
+			{
+				"title": "Client",
+				"desc": "Samsung India"
+			},
+			{
+				"title": "Location",
+				"desc": "Noida, Uttar Pradesh"
+			},
+			{
+				"title": "Services",
+				"desc": "Manned Guarding, Access Control, Surveillance"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The Challenge",
+				"desc": "Samsung India required comprehensive security and facility management solutions for their manufacturing plants in Noida, ensuring 24/7 protection of assets, personnel, and operations while maintaining the highest standards of facility maintenance and cleanliness."
+			},
+			{
+				"title": "Our Solution",
+				"desc": "First Global deployed a dedicated team of trained security personnel and facility management experts. We implemented advanced surveillance systems, access control mechanisms, and integrated facility management services including janitorial services, pest control, and electromechanical maintenance. Our app-based real-time monitoring system provides instant updates and complete operational visibility."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Samsung India Head Office, Gurgaon",
+		"title2": "Corporate Security Solutions",
+		"titleLarge": "Advanced Security Solutions for Corporate Headquarters",
+		"img": "/images/project/project-2.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-7.webp",
+		"img4": "/images/project/project-8.webp",
+		"img5": "/images/project/h9-project-2.webp",
+		"img6": "/images/project/h10-project-img-2.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"desc": "First Global provides executive security and comprehensive facility management services for Samsung India's corporate headquarters in Gurgaon.",
+		"shortDesc": "Executive security and facility management for corporate headquarters",
+		"desc1": "First Global manages security operations for Samsung India's head office in Gurgaon, providing executive security, visitor management, and integrated facility management services.",
+		"desc2": "Our team ensures the highest level of security for corporate executives and visitors while maintaining impeccable facility standards. We implement advanced access control systems and real-time monitoring to provide complete security coverage.",
+
+		"category": "Security",
+		"featured": true,
+		"featuredDesc": "Delivering executive security and facility management excellence for corporate headquarters.",
+		"featuredImg": "/img/project/project-3.png",
+		"employee": {
+			"name": "First Global Team",
+			"desig": "Executive Security",
+			"img": ""
+		},
+		"tags": ["Executive Security", "Facility Management"],
+		"dataFilter": "Security",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Executive Security"
+			},
+			{
+				"title": "Client",
+				"desc": "Samsung India"
+			},
+			{
+				"title": "Location",
+				"desc": "Gurgaon, Haryana"
+			},
+			{
+				"title": "Services",
+				"desc": "Executive Security, Visitor Management"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The Challenge",
+				"desc": "Samsung India's corporate headquarters required advanced security solutions including executive protection, visitor management, and comprehensive facility management to ensure a safe and professional environment for employees and visitors."
+			},
+			{
+				"title": "Our Solution",
+				"desc": "First Global deployed specialized executive security teams trained in corporate security protocols. We implemented advanced visitor management systems, access control mechanisms, and integrated facility management services. Our real-time monitoring and incident response systems ensure immediate action when needed."
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "State Bank of India LHO, Guwahati",
+		"title2": "Integrated Facility Management",
+		"titleLarge": "Integrated Facility Management for Banking Operations",
+		"img": "/images/project/project-3.webp",
+		"img2": "/images/project/project-5.webp",
+		"img3": "/images/project/project-8.webp",
+		"img4": "/images/project/project-9.webp",
+		"img5": "/images/project/h9-project-3.webp",
+		"img6": "/images/project/h10-project-img-3.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+		"desc": "First Global provides integrated facility management services for State Bank of India's Local Head Office in Guwahati, ensuring seamless banking operations.",
+		"shortDesc": "Integrated facility management for banking operations",
+		"desc1": "First Global manages comprehensive facility operations for State Bank of India's Local Head Office in Guwahati, providing integrated services including security, housekeeping, maintenance, and support services.",
+		"desc2": "Our integrated approach ensures all facility management services work in harmony to maintain the highest standards of cleanliness, security, and operational efficiency required for banking operations.",
+
+		"category": "Facility Management",
+		"featured": true,
+		"featuredDesc": "Delivering integrated facility management excellence for banking operations.",
+		"featuredImg": "/img/project/project-4.png",
+		"employee": {
+			"name": "First Global Team",
+			"desig": "Facility Management",
+			"img": ""
+		},
+		"tags": ["Facility Management", "Banking"],
+		"dataFilter": "Facility",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Integrated Facility Management"
+			},
+			{
+				"title": "Client",
+				"desc": "State Bank of India"
+			},
+			{
+				"title": "Location",
+				"desc": "Guwahati, Assam"
+			},
+			{
+				"title": "Services",
+				"desc": "Security, Housekeeping, Maintenance"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The Challenge",
+				"desc": "State Bank of India's Local Head Office in Guwahati required integrated facility management services that would ensure seamless banking operations while maintaining the highest standards of security, cleanliness, and maintenance."
+			},
+			{
+				"title": "Our Solution",
+				"desc": "First Global deployed an integrated facility management team providing comprehensive services including security, janitorial services, electromechanical maintenance, and support services. Our coordinated approach ensures all services work together to maintain operational excellence."
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "ABB Limited, Faridabad",
+		"title2": "Integrated Facility Management",
+		"titleLarge": "Integrated Facility Management for Industrial Operations",
+		"img": "/images/project/project-4.webp",
+		"img2": "/images/project/project-1.webp",
+		"img3": "/images/project/project-9.webp",
+		"img4": "/images/project/project-4.webp",
+		"img5": "/images/project/h9-project-4.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+		"desc": "First Global provides integrated facility management services for ABB Limited's operations in Faridabad, ensuring optimal industrial facility operations.",
+		"shortDesc": "Integrated facility management for industrial operations",
+		"desc1": "First Global manages comprehensive facility operations for ABB Limited in Faridabad, providing integrated services including security, housekeeping, maintenance, and support services for industrial facilities.",
+		"desc2": "Our integrated facility management approach ensures all services work seamlessly together to maintain the highest standards required for industrial operations, including specialized maintenance and safety protocols.",
+
+		"category": "Facility Management",
+		"featured": false,
+		"featuredDesc": "Delivering integrated facility management excellence for industrial operations.",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "First Global Team",
+			"desig": "Facility Management",
+			"img": ""
+		},
+		"tags": ["Facility Management", "Industrial"],
+		"dataFilter": "Facility",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Integrated Facility Management"
+			},
+			{
+				"title": "Client",
+				"desc": "ABB Limited"
+			},
+			{
+				"title": "Location",
+				"desc": "Faridabad, Haryana"
+			},
+			{
+				"title": "Services",
+				"desc": "Security, Housekeeping, Maintenance"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The Challenge",
+				"desc": "ABB Limited required integrated facility management services for their industrial operations in Faridabad, ensuring optimal facility conditions while maintaining strict safety and operational standards required for industrial manufacturing."
+			},
+			{
+				"title": "Our Solution",
+				"desc": "First Global deployed an integrated facility management team providing comprehensive services including security, janitorial services, electromechanical maintenance, and specialized industrial support services. Our coordinated approach ensures all services work together to maintain operational excellence."
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Airtel DLF Rajarhat, Kolkata",
+		"title2": "Integrated Facility Management",
+		"titleLarge": "Integrated Facility Management for Telecommunications Operations",
+		"img": "/images/project/project-3.webp",
+		"img2": "/images/project/project-4.webp",
+		"img3": "/images/project/project-6.webp",
+		"img4": "/images/project/project-8.webp",
+		"img5": "/images/project/h9-project-5.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+		"desc": "First Global provides integrated facility management services for Airtel's operations at DLF Rajarhat in Kolkata, ensuring seamless telecommunications facility operations.",
+		"shortDesc": "Integrated facility management for telecommunications operations",
+		"desc1": "First Global manages comprehensive facility operations for Airtel at DLF Rajarhat in Kolkata, providing integrated services including security, housekeeping, maintenance, and support services for telecommunications facilities.",
+		"desc2": "Our integrated approach ensures all facility management services work in harmony to maintain the highest standards required for telecommunications operations, including specialized maintenance and security protocols.",
+
+		"category": "Facility Management",
+		"featured": false,
+		"featuredDesc": "Delivering integrated facility management excellence for telecommunications operations.",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "First Global Team",
+			"desig": "Facility Management",
+			"img": ""
+		},
+		"tags": ["Facility Management", "Telecommunications"],
+		"dataFilter": "Facility",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Integrated Facility Management"
+			},
+			{
+				"title": "Client",
+				"desc": "Airtel"
+			},
+			{
+				"title": "Location",
+				"desc": "DLF Rajarhat, Kolkata, West Bengal"
+			},
+			{
+				"title": "Services",
+				"desc": "Security, Housekeeping, Maintenance"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The Challenge",
+				"desc": "Airtel required integrated facility management services for their operations at DLF Rajarhat in Kolkata, ensuring optimal facility conditions while maintaining strict security and operational standards required for telecommunications operations."
+			},
+			{
+				"title": "Our Solution",
+				"desc": "First Global deployed an integrated facility management team providing comprehensive services including security, janitorial services, electromechanical maintenance, and specialized support services. Our coordinated approach ensures all services work together to maintain operational excellence for telecommunications facilities."
+			}
+		]
+	}
+]

@@ -1,0 +1,204 @@
+@import url("./assets/css/meanmenu.css");
+@import url("./assets/css/main.css");
+@import url("./assets/css/shop.css");
+
+/* Let's Talk Button */
+.lets-talk-btn {
+	background: #d3b038 !important;
+	border: none !important;
+}
+
+.lets-talk-btn:hover {
+	background: #c0a030 !important;
+	opacity: 0.95;
+}
+
+/* Get Started Button */
+.get-started-btn {
+	background: #d3b038 !important;
+	border: none !important;
+}
+
+.get-started-btn:hover {
+	background: #c0a030 !important;
+	opacity: 0.95;
+}
+
+/* Logo Contrast Styling */
+.site_logo {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+	backdrop-filter: none !important;
+}
+
+.site_logo:hover {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.site_logo .logo {
+	display: inline-block;
+}
+
+/* Footer Logo Styling */
+.footer-logo,
+.subscribe-logo {
+	padding: 10px 15px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(193, 161, 90, 0.15);
+	display: inline-block;
+}
+
+.footer-logo img,
+.subscribe-logo img {
+	filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Mobile Menu Logo Styling */
+.hamburger_logo {
+	padding: 8px 12px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(193, 161, 90, 0.2);
+}
+
+.hamburger_logo .mobile_logo img {
+	filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Golden Theme Color Overrides */
+:root {
+	--tj-color-theme-primary: #D4AF37;
+	--tj-color-theme-bg: #f5f0e1;
+	--tj-color-theme-bg-2: #e9d7a6;
+	--tj-color-border-5: rgba(212, 175, 55, 0.1490196078);
+}
+
+/* Header Font Styling - JPMorgan Style */
+.header-area .mainmenu > ul > li > a {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.3px !important;
+	text-transform: none !important;
+}
+
+.header-area .mainmenu > ul {
+	column-gap: 32px !important;
+}
+
+/* Submenu Font Styling - Slightly smaller for visual hierarchy */
+.header-area .mainmenu > ul > li > .sub-menu > li > a {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 400 !important;
+	letter-spacing: 0.2px !important;
+	line-height: 1.4 !important;
+}
+
+/* Landing Page / Hero Section Font Styling - Match Header Font */
+.slider-title,
+.tj-slider-section .slider-title {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+	letter-spacing: -0.5px !important;
+}
+
+.slider-desc,
+.tj-slider-section .slider-desc {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+	font-size: 16px !important;
+	letter-spacing: 0.2px !important;
+	line-height: 1.5 !important;
+}
+
+/* General Heading Font Update for Consistency */
+h1, h2, h3, h4, h5, h6 {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Body Text Font Update for Consistency */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Services Section Background - Match Process Section */
+.tj-service-section.service-2 {
+	background-color: var(--tj-color-theme-bg) !important;
+}
+
+.tj-service-section.service-2 .sec-heading.style-2 .sub-title {
+	background-color: var(--tj-color-common-white) !important;
+	color: var(--tj-color-theme-primary) !important;
+}
+
+.tj-service-section.service-2 .sec-title {
+	color: var(--tj-color-heading-primary) !important;
+}
+
+.tj-service-section.service-2 .sec-title span {
+	color: var(--tj-color-heading-primary) !important;
+}
+
+/* Services Mega Menu Grid Layout */
+.header-wrapper:has(.mega-menu-services-grid) {
+	position: static !important;
+}
+
+.mainmenu ul > li:has(.mega-menu-services-grid) {
+	position: static !important;
+}
+
+.mega-menu-services-grid {
+	width: calc(100% - 30px) !important;
+	max-width: 1320px !important;
+	padding: 30px 0 !important;
+	margin: 0 auto !important;
+	inset-inline-start: 50% !important;
+	transform: scaleY(0) translateX(-50%) !important;
+	box-shadow: 0 16px 15px rgba(0, 0, 0, 0.1) !important;
+	background-color: var(--tj-color-common-white) !important;
+	border-radius: 12px !important;
+}
+
+.mainmenu ul > li:hover .mega-menu-services-grid {
+	transform: scaleY(1) translateX(-50%) !important;
+}
+
+.mega-menu-services-column {
+	padding: 0 15px;
+}
+
+.mega-menu-services-category {
+	font-size: 18px !important;
+	font-weight: 600 !important;
+	color: var(--tj-color-heading-primary) !important;
+	margin-bottom: 20px !important;
+	padding-bottom: 10px !important;
+	border-bottom: 2px solid var(--tj-color-theme-primary) !important;
+}
+
+.mega-menu-services-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.mega-menu-services-item {
+	display: block;
+	padding: 8px 0 !important;
+	color: var(--tj-color-text-body) !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	transition: all 0.3s ease !important;
+	text-decoration: none !important;
+}
+
+.mega-menu-services-item:hover {
+	color: var(--tj-color-theme-primary) !important;
+	padding-inline-start: 8px !important;
+}
