@@ -8,10 +8,19 @@ const MobileMenuItem = ({ children, text, url, submenuClass }) => {
 	const handleClick = () => {
 		setIsOpen(prevIsOpen => !prevIsOpen);
 	};
+	const shouldToggleOnly = !url;
+	const handleParentClick = e => {
+		if (shouldToggleOnly) {
+			e.preventDefault();
+			handleClick();
+		}
+	};
 
 	return (
 		<li className={`has-dropdown ${isOpen ? "dropdown-opened" : ""}`}>
-			<Link href={url ? url : "#"}>{text}</Link>
+			<Link href={url ? url : "#"} onClick={handleParentClick}>
+				{text}
+			</Link>
 			<ul
 				className={`sub-menu ${submenuClass ? submenuClass : ""}`}
 				style={{ display: !isOpen ? "none" : "" }}
@@ -22,7 +31,10 @@ const MobileMenuItem = ({ children, text, url, submenuClass }) => {
 				className={`mean-expand ${isOpen ? "mean-clicked" : ""}`}
 				href="#"
 				style={{ fontSize: "18px" }}
-				onClick={() => handleClick()}
+				onClick={e => {
+					e.preventDefault();
+					handleClick();
+				}}
 			>
 				<i className="tji-arrow-down"></i>
 			</Link>

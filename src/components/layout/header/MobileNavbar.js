@@ -28,7 +28,7 @@ const MobileNavbar = () => {
 						<ul>
 							<MobileMenuItem
 								text={servicesNav?.name}
-								url={servicesNav?.path ? servicesNav?.path : "#"}
+								url={null}
 								submenuClass={"mega-menu-service"}
 							>
 								{servicesNav?.submenu?.length
@@ -60,10 +60,7 @@ const MobileNavbar = () => {
 									  ))
 									: ""}
 							</MobileMenuItem>
-							<MobileMenuItem
-								text={industriesNav?.name}
-								url={industriesNav?.path ? industriesNav?.path : "#"}
-							>
+							<MobileMenuItem text={industriesNav?.name} url={null}>
 								{industriesNav?.submenu?.length
 									? industriesNav?.submenu?.map((item, idx) => (
 											<li
@@ -77,10 +74,7 @@ const MobileNavbar = () => {
 									  ))
 									: ""}
 							</MobileMenuItem>
-							<MobileMenuItem
-								text={sustainableImpactNav?.name}
-								url={sustainableImpactNav?.path ? sustainableImpactNav?.path : "#"}
-							>
+							<MobileMenuItem text={sustainableImpactNav?.name} url={null}>
 								{sustainableImpactNav?.submenu?.length
 									? sustainableImpactNav?.submenu?.map((item, idx) => (
 											<li
