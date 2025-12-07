@@ -1,21 +1,15 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import ServiceDetailsMain from "@/components/layout/main/ServiceDetailsMain";
+import Brands1 from "@/components/sections/brands/Brands1";
+import Contact2 from "@/components/sections/contacts/Contact2";
 import Cta from "@/components/sections/cta/Cta";
+import HeroInner from "@/components/sections/hero/HeroInner";
+import IndustriesPrimary from "@/components/sections/industries/IndustriesPrimary";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import getALlServices from "@/libs/getALlServices";
-import { notFound } from "next/navigation";
-const items = getALlServices();
 
-export default async function ServiceDetails({ params }) {
-	const { id } = await params;
-
-	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
-	if (!isExistItem) {
-		notFound();
-	}
+export default function Industries() {
 	return (
 		<div>
 			<BackToTop />
@@ -25,7 +19,10 @@ export default async function ServiceDetails({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<ServiceDetailsMain currentItemId={parseInt(id)} />
+						<HeroInner title={"Industries"} text={"Industries"} />
+						<IndustriesPrimary />
+						<Contact2 />
+						<Brands1 type={2} />
 						<Cta />
 					</main>
 					<Footer />
@@ -36,6 +33,4 @@ export default async function ServiceDetails({ params }) {
 		</div>
 	);
 }
-export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
-}
+

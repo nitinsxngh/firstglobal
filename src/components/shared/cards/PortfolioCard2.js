@@ -8,7 +8,12 @@ const PortfolioCard2 = ({ portfolio }) => {
 		id,
 		dataFilter,
 		category = "Connect",
+		statusItem = [],
 	} = portfolio ? portfolio : {};
+	
+	// Link to contact page instead of portfolio page
+	const linkUrl = "/contact";
+	
 	return (
 		<div className="project-item">
 			<div
@@ -17,13 +22,13 @@ const PortfolioCard2 = ({ portfolio }) => {
 			></div>
 			<div className="project-content">
 				<span className="categories">
-					<Link href={`/portfolios/${id}`}>{category}</Link>
+					<Link href={linkUrl}>{category}</Link>
 				</span>
 				<div className="project-text">
 					<h3 className="title">
-						<Link href={`/portfolios/${id}`}>{title}</Link>
+						<Link href={linkUrl}>{title}</Link>
 					</h3>
-					<Link className="project-btn" href={`/portfolios/${id}`}>
+					<Link className="project-btn" href={linkUrl}>
 						<i className="tji-arrow-right-big"></i>
 					</Link>
 				</div>

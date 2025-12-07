@@ -52,19 +52,19 @@ const About3 = ({ type }) => {
 						<div className="about-content-area">
 							<div className={`sec-heading ${type === 2 ? "" : "style-3"}`}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>About First Global Services
+									<i className="tji-box"></i>Who We Are
 								</span>
 								<h2 className="sec-title title-anim">
 									{type === 2 ? (
 										<>
-											Leading Security & Facility Management Solutions <span>Across India & Beyond.</span>
+											India's Largest Integrated Security & Facility <span>Management Partner.</span>
 										</>
 									) : (
-										"Leading Security & Facility Management Solutions Across India & Beyond."
+										"India's Largest Integrated Security & Facility Management Partner."
 									)}
 								</h2>
 								<p style={{ marginTop: "20px", fontSize: "16px", lineHeight: "1.8", color: "#666" }}>
-									First Global Services Pvt. Ltd. (formerly Orion Security Solutions Pvt. Ltd.) is the flagship & holding company of ORION Group. With an annual revenue of <strong>INR 700+ Cr</strong>, we have established a strong presence across <strong>25+ states in India</strong> with <strong>8 regional offices</strong> and <strong>47 branch offices</strong>. Our international operations span UAE and Finland (since 2016).
+									First Global is one of India's largest integrated security and facility management partner, trusted by leading organizations across industries. With a workforce of <strong>45,000+ trained professionals</strong>, <strong>52+ training centers</strong>, and presence across <strong>25+ states</strong>, we deliver consistent, reliable, and on-ground operational excellence every day.
 								</p>
 							</div>
 						</div>
@@ -73,42 +73,26 @@ const About3 = ({ type }) => {
 								className="mission-vision-box wow fadeInLeft"
 								data-wow-delay=".5s"
 							>
-								<h4 className="title">Our Workforce</h4>
+								<h4 className="title">Our Purpose</h4>
 								<p className="desc">
-									We employ <strong>45,000+ people</strong> including <strong>650+ back-office employees</strong>, <strong>13,000+ armed guards</strong>, and <strong>31,000+ unarmed guards</strong>. Our team comprises <strong>30% Ex-Army</strong> and <strong>70% Civilian</strong> personnel.
+									To build dependable, safe, and well-managed environments that help businesses operate smoothly and confidently - every single day.
 								</p>
-								<ul className="list-items">
-									<li>
-										<i className="tji-list"></i>650+ Back-Office Employees
-									</li>
-									<li>
-										<i className="tji-list"></i>13,000+ Armed Guards
-									</li>
-									<li>
-										<i className="tji-list"></i>31,000+ Unarmed Guards
-									</li>
-								</ul>
 							</div>
 							<div
 								className="mission-vision-box wow fadeInRight"
 								data-wow-delay=".5s"
 							>
-								<h4 className="title">Our Goal</h4>
+								<h4 className="title">Our Ambition</h4>
 								<p className="desc">
-									To be valued at <strong>INR 3000 Cr by 2029</strong>. We operate with <strong>zero debt</strong> and maintain <strong>surplus manpower</strong> for business continuity.
+									To scale First Global to a valuation of <strong>INR 3000 Cr by 2029</strong>, powered by zero-debt operations, continuous training, technology-led monitoring, and a strong pan-India workforce.
 								</p>
-								<ul className="list-items">
-									<li>
-										<i className="tji-list"></i>INR 3000 Cr Valuation by 2029
-									</li>
-									<li>
-										<i className="tji-list"></i>Zero Debt Operations
-									</li>
-									<li>
-										<i className="tji-list"></i>ISO 9001:2008 Certified
-									</li>
-								</ul>
 							</div>
+						</div>
+						<div className="about-promise-area wow fadeInUp" data-wow-delay=".7s" style={{ marginTop: "30px" }}>
+							<h4 className="title">Our Promise</h4>
+							<p className="desc" style={{ fontSize: "16px", lineHeight: "1.8", color: "#666" }}>
+								We don't just deploy people - we create operational systems that work, stay reliable, and support your business without interruption.
+							</p>
 						</div>
 						<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
 							<ButtonPrimary text={"Learn More About Us"} url={"/about"} />

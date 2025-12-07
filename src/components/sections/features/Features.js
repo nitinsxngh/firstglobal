@@ -4,23 +4,23 @@ import FeatureCard from "@/components/shared/cards/FeatureCard";
 const Features = ({ type }) => {
 	const features = [
 		{
-			title: "Strong Management Team",
-			desc: "Diverse leadership with international exposure, driving innovation and excellence across all operations.",
+			title: "Leadership With Real Depth",
+			desc: "A diverse management team with national and international exposure drives consistency, discipline, and service innovation.",
 			icon: "tji-team",
 		},
 		{
-			title: "Business Continuity Infrastructure",
-			desc: "Backup centers, zero debt operations, and surplus manpower ensure seamless service delivery and reliability.",
+			title: "Scale That Ensures Stability",
+			desc: "45,000+ workforce, 47 branch offices, surplus manpower, and zero-debt operations guarantee uninterrupted service delivery.",
 			icon: "tji-innovative",
 		},
 		{
-			title: "Presence, Expertise & Experience",
-			desc: "Operating in all A, B, C cities with a strong hierarchy structure and 25+ states presence across India.",
+			title: "Nationwide Operational Reach",
+			desc: "Presence across A, B, and C cities with structured hierarchy systems ensures instant mobilization and on-site responsiveness.",
 			icon: "tji-worldwide",
 		},
 		{
-			title: "Quality Processes",
-			desc: "52+ training centers, dedicated background verification, state-of-the-art technology, and ISO 9001:2008 certified.",
+			title: "Quality Processes That Don't Break",
+			desc: "52+ training centers, dedicated verification teams, process-driven SOPs, and ISO 9001:2008 certified systems maintain uniform quality across all locations.",
 			icon: "tji-award",
 		},
 	];
@@ -37,12 +37,12 @@ const Features = ({ type }) => {
 								</span>
 								<div className="heading-wrap-content">
 									<div className="sec-heading">
-										<h2 className="sec-title title-anim">
-											Why First Global? Key <span>Differentiators.</span>
-										</h2>
-										<p style={{ marginTop: "20px", fontSize: "16px", lineHeight: "1.8", color: "#666", maxWidth: "600px" }}>
-											With over 45,000+ employees, 52+ training centers, and operations across 25+ states, we deliver comprehensive security and facility management solutions backed by proven expertise and quality processes.
-										</p>
+								<h2 className="sec-title title-anim">
+									What Makes First Global <span>Different.</span>
+								</h2>
+								<p style={{ marginTop: "20px", fontSize: "16px", lineHeight: "1.8", color: "#666", maxWidth: "600px" }}>
+									Our unique combination of leadership depth, operational scale, nationwide reach, and quality processes sets us apart as India's trusted security and facility management partner.
+								</p>
 									</div>
 									<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
 										<ButtonPrimary text="Need Help? Start Here" url="/contact" />

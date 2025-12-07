@@ -23,7 +23,7 @@ const MarqueeSlider1 = () => {
 		>
 			{items?.length
 				? items?.map(
-						({ img = "/images/marquee/marquee-1.webp", title }, idx) => (
+						({ img = "/images/marquee/marquee-1.png", title }, idx) => (
 							<SwiperSlide key={idx} className="marquee-item">
 								<h4 className="marquee-text">{title}</h4>
 								<div className="marquee-img">

@@ -7,6 +7,7 @@ import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import Hero2 from "@/components/sections/hero/Hero2";
 import Portfolios2 from "@/components/sections/portfolios/Portfolios2";
 import Services2 from "@/components/sections/services/Services2";
+import SaasShowcase from "@/components/sections/saas/SaasShowcase";
 // import Team1 from "@/components/sections/teams/Team1";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -26,7 +27,8 @@ export default function Home() {
 						<Brands2 />
 						<About2 />
 						<Funfact1 />
-						<Services2 />
+						{/* <Services2 /> */}
+						<SaasShowcase />
 						<Portfolios2 />
 						<Testimonials2 type={undefined} />
 						{/* <Team1 type={undefined} /> */}

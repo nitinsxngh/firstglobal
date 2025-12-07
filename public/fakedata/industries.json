@@ -1,0 +1,67 @@
+[
+	{
+		"id": 1,
+		"slug": "healthcare",
+		"title": "Healthcare",
+		"image": "/images/service/service-1.webp",
+		"content": "Hospitals need controlled movement, hygiene, and a safe environment. We support them with:\n\n• Trained guards for wards, ICUs, OPDs, and emergency zones\n• Access control, visitor flow, parking management, and surveillance\n• Hospital-grade housekeeping, hygiene, and quick-response teams",
+		"description": "Comprehensive security and facility management solutions for hospitals ensuring controlled movement, hygiene, and safe environments."
+	},
+	{
+		"id": 2,
+		"slug": "financial-services",
+		"title": "Financial Services",
+		"image": "/images/service/service-1.webp",
+		"content": "Banks require disciplined security, regulated access, and smooth customer flow. We assist them with:\n\n• Branch & ATM security with strict access and visitor verification\n• Queue handling, customer facilitation, and surveillance monitoring\n• Housekeeping, electromechanical support, and parking management",
+		"description": "Disciplined security and facility management for banks with regulated access and smooth customer flow."
+	},
+	{
+		"id": 3,
+		"slug": "manufacturing",
+		"title": "Manufacturing",
+		"image": "/images/service/service-1.webp",
+		"content": "Industrial plants need safe perimeters, compliant operations, and reliable manpower. We strengthen them with:\n\n• Perimeter guarding, fire safety, and incident-ready teams\n• Workforce movement, gate control, and vendor supervision\n• Mechanised housekeeping for shop floors and production areas",
+		"description": "Safe perimeters, compliant operations, and reliable manpower solutions for industrial plants and manufacturing facilities."
+	},
+	{
+		"id": 4,
+		"slug": "retail-e-commerce",
+		"title": "Retail & E-Commerce",
+		"image": "/images/service/service-1.webp",
+		"content": "High-footfall retail and fast-moving warehouses need controlled flow and loss prevention. We support them with:\n\n• Store security, floor monitoring, and loss-prevention teams\n• Warehouse guarding, inventory-area supervision\n• Customer flow, parking control, and daily facility maintenance",
+		"description": "Controlled flow and loss prevention solutions for high-footfall retail stores and fast-moving warehouses."
+	},
+	{
+		"id": 5,
+		"slug": "technology",
+		"title": "Technology",
+		"image": "/images/service/service-1.webp",
+		"content": "Tech parks and data centers need secure access, clean spaces, and uninterrupted operations. We assist them with:\n\n• Access control, visitor management, and surveillance support\n• Lobby, reception, and parking supervision\n• Workplace housekeeping and technical FM assistance",
+		"description": "Secure access, clean spaces, and uninterrupted operations for tech parks and data centers."
+	},
+	{
+		"id": 6,
+		"slug": "energy-utilities",
+		"title": "Energy & Utilities",
+		"image": "/images/service/service-1.webp",
+		"content": "Power plants and critical utility sites need strict security and emergency-ready teams. We enable them with:\n\n• Perimeter protection and high-risk zone access supervision\n• Crisis response, incident reporting, and real-time monitoring\n• Technical housekeeping and equipment-safe maintenance",
+		"description": "Strict security and emergency-ready teams for power plants and critical utility sites."
+	},
+	{
+		"id": 7,
+		"slug": "education",
+		"title": "Education",
+		"image": "/images/service/service-1.webp",
+		"content": "Schools and campuses need safe entry points and disciplined movement. We help them with:\n\n• Trained guards for gates, classrooms, and common areas\n• Student movement, transport-zone, and event supervision\n• Classroom, corridor, and washroom housekeeping",
+		"description": "Safe entry points and disciplined movement solutions for schools and educational campuses."
+	},
+	{
+		"id": 8,
+		"slug": "real-estate",
+		"title": "Real Estate",
+		"image": "/images/service/service-1.webp",
+		"content": "Residential and commercial properties need smooth access, clean spaces, and dependable security. We support them with:\n\n• Lobby control, visitor verification, and parking supervision\n• Common-area surveillance and daily security operations\n• Housekeeping and facility maintenance",
+		"description": "Smooth access, clean spaces, and dependable security for residential and commercial properties."
+	}
+]
+

@@ -1,0 +1,245 @@
+[
+	{
+		"id": 1,
+		"slug": "manned-guarding",
+		"title": "Manned Guarding",
+		"category": "Security Services",
+		"image": "/images/service/manned-guarding.png",
+		"content": "The First Line of Defense. Our manned guarding solutions provide a visible, professional deterrent against threats. We do not offer a \"one size fits all\" guard; we provide customized security professionals tailored to the specific environment they protect. Our operations are fully compliant with the Private Security Agencies Regulation Act (PSARA) 2005, and our infrastructure includes over 47 training centers that ensure every guard meets exacting standards.\n\nSector-Specific Solutions:\n\nCorporate & Commercial: Professional, uniformed guards for office buildings, banks, and corporate parks who manage access and represent your brand image.\n\nIndustrial & Factory: Rugged security solutions for factories and industrial complexes, focusing on material gate passes, theft prevention, and labor safety.\n\nResidential & Housing Societies: Vigilant gate management and patrol services that ensure the safety of families and residents.\n\nHospitality & Lifestyle: Bouncers and security staff for clubs, restaurants, and hotels who are trained in soft skills and crowd management.\n\nThe FirstGlobal Guard Profile: Every deployed resource is a minimum matriculate with 12 to 18 months of relevant experience. They are physically fit, mentally alert, and fluent in Hindi or the local language for effective communication. Each guard comes fully equipped with a complete uniform, tactical torch, baton, and communication devices to handle any situation.",
+		"description": "The First Line of Defense. Professional manned guarding solutions with customized security professionals tailored to your specific environment."
+	},
+	{
+		"id": 2,
+		"slug": "escort-guarding",
+		"title": "Escort Guarding",
+		"category": "Security Services",
+		"image": "/images/service/escort-guarding.png",
+		"content": "Safety in Motion. Transporting high-value assets or ensuring the safe commute of personnel requires more than just a driver. Our escort guarding services provide mobile protection you can trust for logistics, cash-in-transit, or employee transport vehicles.\n\nKey Features:\n\nRoute Risk Management: We analyze travel routes beforehand to identify potential chokepoints or danger zones.\n\nReal-Time Tracking: Integration with GPS systems to monitor vehicle location and status continuously.\n\nDefensive Protocols: Personnel are trained in defensive positioning to protect the asset or passenger in the event of a roadway incident or attempted interception.",
+		"description": "Safety in Motion. Mobile protection services for high-value assets, cash-in-transit, and employee transport vehicles."
+	},
+	{
+		"id": 3,
+		"slug": "event-protection",
+		"title": "Event Protection",
+		"category": "Security Services",
+		"image": "/images/service/event-protection.png",
+		"content": "Seamless Security for Memorable Moments. From corporate summits (AGMs) to large-scale public gatherings and concerts, successful events require invisible yet effective security. FirstGlobal manages the entire safety ecosystem, allowing you to focus on the experience while we handle the contingencies.\n\nOur Approach:\n\nCrowd Dynamics: Expert handling of large volumes of people to prevent stampedes or bottlenecks.\n\nVIP Access Control: Dedicated zones and protection for celebrities, speakers, and senior management.\n\nEmergency Response: Pre-planned exit strategies and medical evacuation routes coordinated with local law enforcement.",
+		"description": "Seamless Security for Memorable Moments. Comprehensive event security for corporate summits, public gatherings, and concerts."
+	},
+	{
+		"id": 4,
+		"slug": "executive-security",
+		"title": "Executive Security",
+		"category": "Security Services",
+		"image": "/images/service/executive-security.png",
+		"content": "Discreet Protection for Global Leaders. Our Personal Security Officers (PSOs) provide elite protection for high-profile individuals and corporate executives. These are not just bodyguards; they are highly disciplined professionals trained to blend in while remaining hyper-alert.\n\nService Highlights:\n\nThreat Assessment: We conduct thorough risk analysis of the principal's routine and travel plans.\n\nEtiquette & Discretion: Our PSOs are trained in corporate etiquette, ensuring they are unobtrusive during meetings and social engagements.\n\nRapid Response: Immediate physical intervention capabilities to neutralize threats and evacuate the principal to safety.",
+		"description": "Discreet Protection for Global Leaders. Elite Personal Security Officers (PSOs) for high-profile individuals and corporate executives."
+	},
+	{
+		"id": 5,
+		"slug": "security-training",
+		"title": "Security Training",
+		"category": "Security Services",
+		"image": "/images/service/security-training.png",
+		"content": "Forging the Standard of Excellence. Security is a skill that demands constant refinement. Our dedicated training division is the engine behind our quality. We upskill personnel in modern threat detection, legal compliance, and crisis management.\n\nCurriculum Includes:\n\nFire Safety & First Aid: Every guard is a first responder capable of handling basic medical and fire emergencies.\n\nLegal Awareness: Training on the legal rights of a security officer and the laws of the land.\n\nBehavioral Skills: Drills on conflict de-escalation to resolve disputes without violence.",
+		"description": "Forging the Standard of Excellence. Dedicated training division upskilling personnel in threat detection, legal compliance, and crisis management."
+	},
+	{
+		"id": 6,
+		"slug": "travel-security-support",
+		"title": "Travel Security Support",
+		"category": "Security Services",
+		"image": "/images/service/travel-security-support.png",
+		"content": "Global Mobility, Managed. With operations spanning India, the UAE, and Finland, we understand global travel risks. Our travel security support offers risk intelligence, itinerary management, and on-ground support, ensuring your team is safe, informed, and connected.\n\nScope of Support:\n\nAirport Transfers: Secure meet-and-greet services to ensure safe passage from arrival to accommodation.\n\nRisk Intelligence: Pre-travel briefings on local political stability, health risks, and cultural sensitivities.\n\nGeo-Fencing: Digital tracking solutions that alert our command center if a traveler deviates from the safe zone.",
+		"description": "Global Mobility, Managed. Travel security support with risk intelligence, itinerary management, and on-ground support across India, UAE, and Finland."
+	},
+	{
+		"id": 7,
+		"slug": "railways-gate-security-management",
+		"title": "Railways Gate Security Management",
+		"category": "Security Services",
+		"image": "/images/service/railways-gate-security-management.png",
+		"content": "Critical Infrastructure Protection. Securing the lifelines of transport requires specialized attention. We manage railway gate security with a focus on logistics flow, unauthorized access prevention, and signaling coordination.\n\nOperational Focus:\n\nAsset Protection: Preventing theft of signaling equipment, copper wiring, and track infrastructure.\n\nAccess Control: Strict regulation of movement at level crossings and maintenance yards.\n\nLogistics Flow: Ensuring that cargo movement is documented and tamper-proof.",
+		"description": "Critical Infrastructure Protection. Specialized railway gate security management focusing on logistics flow, access control, and asset protection."
+	},
+	{
+		"id": 8,
+		"slug": "janitorial-and-pantry-services",
+		"title": "Janitorial and Pantry Services",
+		"category": "Facility Management",
+		"image": "/images/service/janitorial-and-pantry-services.png",
+		"content": "Hospitality in Every Detail. We ensure your workspace reflects your brand's professionalism. Our janitorial staff maintains impeccable cleanliness, while our pantry support teams manage hospitality logistics.\n\nService Delivery:\n\nCorporate Hospitality: Trained pantry staff who understand boardroom etiquette and hygiene standards for food and beverage service.\n\nDaily Maintenance: Routine dusting, waste disposal, and sanitization of workstations.\n\nEco-Friendly Consumables: We use high-quality, environmentally safe cleaning agents that are tough on dirt but safe for your employees.",
+		"description": "Hospitality in Every Detail. Professional janitorial and pantry services maintaining impeccable cleanliness and hospitality logistics."
+	},
+	{
+		"id": 9,
+		"slug": "washroom-hygiene-and-pest-control",
+		"title": "Washroom Hygiene and Pest Control",
+		"category": "Facility Management",
+		"image": "/images/service/washroom-hygiene-and-pest-control.png",
+		"content": "Health and Safety First. Sanitation is non-negotiable. We employ hospital-grade cleaning protocols for washrooms and proactive, eco-friendly pest control measures. We create environments that are not just visually clean, but clinically safe for your workforce.\n\nWhat We Do:\n\nDeep Sanitization: Regular steam cleaning and disinfection of washroom fixtures to prevent bacterial growth.\n\nVector Control: Scheduled pest control treatments for rodents, termites, and insects using odorless and WHO-approved chemicals.\n\nConsumable Management: Timely replenishment of hand wash, tissues, and air fresheners.",
+		"description": "Health and Safety First. Hospital-grade cleaning protocols and eco-friendly pest control for clinically safe environments."
+	},
+	{
+		"id": 10,
+		"slug": "carpet-shampooing",
+		"title": "Carpet Shampooing",
+		"category": "Facility Management",
+		"image": "/images/service/carpet-shampooing.png",
+		"content": "Revitalizing Your Interiors. Carpets are high-traffic investments that trap dust and allergens. Our deep-cleaning extraction and shampooing services remove deep-seated stains, extending the life of your flooring and maintaining the aesthetic appeal of your corporate interiors.\n\nTechniques Used:\n\nInjection Extraction: Deep injection of cleaning solution followed by powerful vacuum extraction to remove grime from the base.\n\nDry Foam Cleaning: Low-moisture techniques for areas that need to be reused immediately.\n\nSpot Treatment: Specialized chemical applications for stubborn stains like coffee or ink.",
+		"description": "Revitalizing Your Interiors. Deep-cleaning extraction and shampooing services to extend carpet life and maintain aesthetic appeal."
+	},
+	{
+		"id": 11,
+		"slug": "mechanized-housekeeping-services",
+		"title": "Mechanized Housekeeping Services",
+		"category": "Facility Management",
+		"image": "/images/service/mechanized-housekeeping-services.png",
+		"content": "Efficiency Through Technology. For large-scale facilities like malls, airports, and factories, manual cleaning is insufficient. We utilize industrial-grade scrubbers, sweepers, and polishers to deliver superior results in a fraction of the time.\n\nOur Fleet:\n\nRide-on Scrubbers: For rapid cleaning of expansive floor areas in warehouses and lobbies.\n\nHigh-Pressure Jets: For cleaning exterior facades, parking lots, and industrial machinery.\n\nSingle Disc Machines: For buffing and polishing stone and marble floors to a high gloss.",
+		"description": "Efficiency Through Technology. Industrial-grade scrubbers, sweepers, and polishers for large-scale facility cleaning."
+	},
+	{
+		"id": 12,
+		"slug": "electromechanical-services",
+		"title": "Electromechanical Services",
+		"category": "Facility Management",
+		"image": "/images/service/electromechanical-services.png",
+		"content": "Powering Your Operations. Downtime is costly. Our technical teams manage the heartbeat of your building including HVAC, electrical systems, and plumbing. We provide preventive maintenance and rapid repair services.\n\nTechnical Scope:\n\nPreventive Maintenance (PPM): Scheduled checks to identify and fix wear and tear before it causes a breakdown.\n\nEnergy Management: Audits and adjustments to optimize power consumption and reduce utility bills.\n\n24/7 Support: On-call technicians ready to handle power outages, leaks, or cooling failures immediately.",
+		"description": "Powering Your Operations. Technical teams managing HVAC, electrical systems, and plumbing with preventive maintenance and 24/7 support."
+	},
+	{
+		"id": 13,
+		"slug": "covid-sanitization",
+		"title": "COVID Sanitization",
+		"category": "Facility Management",
+		"image": "/images/service/service-1.webp",
+		"content": "Specialized COVID sanitization services to ensure safe and hygienic environments. Our services include deep sanitization, fogging, surface disinfection, and regular sanitization programs following health guidelines.",
+		"description": "Specialized COVID sanitization services for safe and hygienic environments following health guidelines."
+	},
+	{
+		"id": 14,
+		"slug": "customer-facilitation-services-ticketing",
+		"title": "Customer Facilitation Services/Ticketing",
+		"category": "Facility Management",
+		"image": "/images/service/customer-facilitation-services-ticketing.png",
+		"content": "Streamlining the User Experience. First impressions matter. Our front-desk and ticketing personnel are trained to manage flow, handle inquiries, and facilitate smooth entry for visitors. We combine soft skills with efficiency to enhance the customer journey from the moment they arrive.\n\nRoles Covered:\n\nFront Office Executives: Managing reception desks, calls, and mail with professional poise.\n\nTicketing Agents: Handling high-volume entry points at events or transport hubs with speed and accuracy.\n\nHelp Desk Support: Providing information and guidance to visitors and employees.",
+		"description": "Streamlining the User Experience. Front-desk and ticketing personnel trained to manage flow and enhance customer journey."
+	},
+	{
+		"id": 15,
+		"slug": "visitor-management",
+		"title": "Visitor Management",
+		"category": "Information Security",
+		"image": "/images/service/visitor-management.png",
+		"content": "Digital Gatekeeping. Replace paper logs with secure, digital visitor management. Our systems track entry and exit times, issue badges, and screen visitors against watchlists, ensuring that only authorized personnel gain access to your facility.\n\nSystem Capabilities:\n\nPre-Registration: Allowing hosts to pre-approve guests via app or email for faster check-in.\n\nBadge Printing: Instant creation of photo ID badges with access privileges encoded.\n\nAudit Trails: Digital logs of every visitor movement for compliance and security audits.",
+		"description": "Digital Gatekeeping. Secure, digital visitor management systems tracking entry/exit, issuing badges, and screening against watchlists."
+	},
+	{
+		"id": 16,
+		"slug": "surveillance",
+		"title": "Surveillance",
+		"category": "Information Security",
+		"image": "/images/service/surveillance.png",
+		"content": "Intelligent Eyes Everywhere. Beyond simple recording, our surveillance solutions utilize AI-driven analytics. We provide proactive monitoring that detects anomalies, tracks movement, and provides real-time alerts.\n\nAdvanced Features:\n\nBehavioral Analytics: Identifying suspicious loitering or unattended baggage automatically.\n\nNight Vision & Thermal: Ensuring visibility in zero-light conditions or dense fog.\n\nRemote Monitoring: Centralized command centers that watch over multiple sites simultaneously.",
+		"description": "Intelligent Eyes Everywhere. AI-driven surveillance solutions with proactive monitoring, behavioral analytics, and real-time alerts."
+	},
+	{
+		"id": 17,
+		"slug": "parking-management",
+		"title": "Parking Management",
+		"category": "Information Security",
+		"image": "/images/service/parking-management.png",
+		"content": "Optimized Arrival. We transform parking from a hassle into a streamlined operation. Our management systems optimize space utilization, control vehicle access, and ensure the safety of vehicles.\n\nSolutions:\n\nAutomated Boom Barriers: RFID-enabled entry for authorized employees.\n\nGuidance Systems: Sensors and digital signage guiding drivers to the nearest empty slot.\n\nTicketless Entry: ANPR (Automatic Number Plate Recognition) for seamless access.",
+		"description": "Optimized Arrival. Streamlined parking management systems optimizing space utilization and ensuring vehicle safety."
+	},
+	{
+		"id": 18,
+		"slug": "integrated-smart-traffic-management",
+		"title": "Integrated Smart Traffic Management",
+		"category": "Information Security",
+		"image": "/images/service/integrated-smart-traffic-management.png",
+		"content": "Controlled Flow. For campuses and large complexes, internal traffic flow is a safety priority. We implement smart signaling and traffic marshaling protocols to prevent congestion.\n\nTraffic Solutions:\n\nSignage & Marking: Professional road marking and signage to designate lanes and pedestrian zones.\n\nSpeed Control: Installation of speed breakers and monitoring cameras to enforce campus speed limits.\n\nMarshaling: Trained personnel to direct traffic during peak hours or shift changes.",
+		"description": "Controlled Flow. Smart signaling and traffic marshaling protocols for campuses and large complexes to prevent congestion."
+	},
+	{
+		"id": 19,
+		"slug": "incidence-response-mechanism",
+		"title": "Incidence Response Mechanism",
+		"category": "Information Security",
+		"image": "/images/service/incidence-response-mechanism.png",
+		"content": "Speed. Strategy. Resolution. When an alarm triggers, seconds count. Our automated incidence response mechanisms integrate sensors with communication channels, ensuring immediate mobilization.\n\nWorkflow:\n\nAutomated Alerts: Immediate SMS and email notifications to security heads upon sensor breach.\n\nSOP Activation: Digital checklists for guards to follow during specific emergencies (fire, intrusion).\n\nPost-Incident Reporting: Automated generation of incident reports for legal and insurance purposes.",
+		"description": "Speed. Strategy. Resolution. Automated incidence response mechanisms integrating sensors with communication for immediate mobilization."
+	},
+	{
+		"id": 20,
+		"slug": "perimeter-protection",
+		"title": "Perimeter Protection",
+		"category": "Information Security",
+		"image": "/images/service/perimeter-protection.png",
+		"content": "The Iron Shield. We secure your boundaries using a blend of physical barriers and electronic intrusion detection systems. We ensure that your perimeter is impenetrable to unauthorized access.\n\nLayers of Defense:\n\nPIDS (Perimeter Intrusion Detection Systems): Fiber optic sensors on fences that detect cutting or climbing attempts.\n\nElectric Fencing: Non-lethal, deterrent high-voltage fencing for high-security zones.\n\nMotion Sensors: Microwave and infrared beams creating an invisible wall around the property.",
+		"description": "The Iron Shield. Blending physical barriers and electronic intrusion detection systems for impenetrable perimeter security."
+	},
+	{
+		"id": 21,
+		"slug": "vendor-management",
+		"title": "Vendor Management",
+		"category": "Information Security",
+		"image": "/images/service/vendor-management.png",
+		"content": "Secure Supply Chains. Security risks often enter through the back door. Our vendor management protocols vet external suppliers and contractors.\n\nProcess:\n\nKYC & Vetting: Thorough background checks on all vendor personnel entering the premises.\n\nMaterial Movement: Strict checking of goods in and goods out to prevent pilferage.\n\nAccess Zones: Restricting vendor access only to loading docks and specific service areas.",
+		"description": "Secure Supply Chains. Vendor management protocols vetting external suppliers and contractors with thorough background checks."
+	},
+	{
+		"id": 22,
+		"slug": "access-control",
+		"title": "Access Control",
+		"category": "Information Security",
+		"image": "/images/service/access-control.png",
+		"content": "Precision Entry. Control is the core of security. We implement biometric, card, and mobile-based access control systems that ensure the right people have access to the right areas at the right times.\n\nTechnologies:\n\nBiometrics: Fingerprint and facial recognition for high-accuracy identification.\n\nMobile Credentials: Using smartphones as keys for convenient, touchless entry.\n\nAnti-Passback: Preventing a single access card from being used by multiple people to enter.",
+		"description": "Precision Entry. Biometric, card, and mobile-based access control systems ensuring the right people access the right areas."
+	},
+	{
+		"id": 23,
+		"slug": "soft-skills",
+		"title": "Soft Skills",
+		"category": "Skills & Training",
+		"image": "/images/service/soft-skills.png",
+		"content": "The Art of Professional Interaction. Technical skills get the job done, but soft skills build relationships. We train teams in emotional intelligence, conflict resolution, and teamwork.\n\nTraining Modules:\n\nEffective Communication: Minimizing misunderstandings and improving clarity in speech and writing.\n\nTime Management: Techniques to prioritize tasks and increase productivity.\n\nLeadership Development: Preparing junior managers to lead teams effectively.",
+		"description": "The Art of Professional Interaction. Training teams in emotional intelligence, conflict resolution, and teamwork."
+	},
+	{
+		"id": 24,
+		"slug": "grooming-sessions",
+		"title": "Grooming Sessions",
+		"category": "Skills & Training",
+		"image": "/images/service/grooming-sessions.png",
+		"content": "The Power of Appearance. Your team is the face of your brand. Our grooming workshops focus on personal presentation, dress codes, and professional hygiene.\n\nFocus Areas:\n\nCorporate Dressing: Guidelines on formal and business casual attire.\n\nPersonal Hygiene: Standards for grooming, hair, and overall presentation.\n\nBody Language: Understanding non-verbal cues to project confidence.",
+		"description": "The Power of Appearance. Grooming workshops focusing on personal presentation, dress codes, and professional hygiene."
+	},
+	{
+		"id": 25,
+		"slug": "greeting-etiquettes-and-basic-manners",
+		"title": "Greeting Etiquettes and Basic Manners",
+		"category": "Skills & Training",
+		"image": "/images/service/greeting-etiquettes-and-basic-manners.png",
+		"content": "First Class Impressions. In a service economy, courtesy is currency. We instill the fundamentals of corporate etiquette to ensure every interaction reflects high ethical standards.\n\nKey Topics:\n\nThe Meet and Greet: Perfecting the handshake, eye contact, and introduction.\n\nTelephone Etiquette: Professional handling of calls, holds, and transfers.\n\nEmail Manners: Writing professional, concise, and polite electronic correspondence.",
+		"description": "First Class Impressions. Training in corporate etiquette fundamentals ensuring every interaction reflects high ethical standards."
+	},
+	{
+		"id": 26,
+		"slug": "language-training",
+		"title": "Language Training",
+		"category": "Skills & Training",
+		"image": "/images/service/language-training.png",
+		"content": "Communication Without Borders. As a company operating in the UAE, Finland, and beyond, we understand the power of language. We offer training in key business languages to break down barriers.\n\nOfferings:\n\nEnglish Proficiency: From basic functional English to advanced business fluency.\n\nLocal Dialects: Training for expatriate staff to communicate effectively in the local region.\n\nAccent Neutralization: Ensuring clear and globally understood communication.",
+		"description": "Communication Without Borders. Training in key business languages to break down barriers across UAE, Finland, and beyond."
+	},
+	{
+		"id": 27,
+		"slug": "book-keeping",
+		"title": "Book Keeping",
+		"category": "Skills & Training",
+		"image": "/images/service/book-keeping.png",
+		"content": "Administrative Precision. Accuracy is the bedrock of trust. Our bookkeeping training modules cover the essentials of financial recording, documentation, and organized filing.\n\nSkill Development:\n\nPetty Cash Management: Handling day-to-day office expenses with accountability.\n\nDigital Filing: Organizing documents in cloud storage for easy retrieval.\n\nBasic Accounting: Understanding invoices, purchase orders, and ledger entries.",
+		"description": "Administrative Precision. Bookkeeping training modules covering financial recording, documentation, and organized filing."
+	}
+]

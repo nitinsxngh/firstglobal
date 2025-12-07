@@ -24,5 +24,9 @@
 		"sweetalert2": "^11.22.5",
 		"swiper": "^11.2.10",
 		"wow.js": "^1.2.2"
+	},
+	"devDependencies": {
+		"pdf-parse": "^2.4.5",
+		"pdfjs-dist": "^5.4.449"
 	}
 }

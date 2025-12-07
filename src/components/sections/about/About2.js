@@ -74,7 +74,7 @@ const About2 = () => {
 						>
 							<div
 								className="customers-bg"
-								style={{ backgroundImage: "url('/images/about/about-4.webp')" }}
+								style={{ backgroundImage: "url('/images/about/about-4.png')" }}
 							></div>
 							<div className="customers">
 								<ul>
