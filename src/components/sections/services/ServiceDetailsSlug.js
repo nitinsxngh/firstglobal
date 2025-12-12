@@ -2,7 +2,7 @@
 import BootstrapWrapper from "@/components/shared/wrappers/BootstrapWrapper";
 import Image from "next/image";
 import Link from "next/link";
-import CtaSidebar from "../cta/CtaSidebar";
+// import CtaSidebar from "../cta/CtaSidebar";
 import { getAllServices } from "@/libs/getServiceBySlug";
 
 const ServiceDetailsSlug = ({ service, prevService, nextService }) => {
@@ -110,7 +110,7 @@ const ServiceDetailsSlug = ({ service, prevService, nextService }) => {
 					</div>
 					<div className="col-lg-4">
 						<BootstrapWrapper>
-							<CtaSidebar />
+							{/* <CtaSidebar /> */}
 							<div className="service-sidebar">
 								<div className="sidebar-widget">
 									<h4 className="widget-title">All Services</h4>

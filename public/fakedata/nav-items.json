@@ -8,7 +8,7 @@
 				"id": 1,
 				"name": "Security Services",
 				"icon": "tji-service-1",
-				"path": "/services/security-services"
+				"path": "/services"
 			},
 			{
 				"id": 2,
@@ -50,25 +50,25 @@
 				"id": 8,
 				"name": "Railways Gate Security Management",
 				"icon": "tji-service-2",
-				"path": "/services/railways-gate-security"
+				"path": "/services/railways-gate-security-management"
 			},
 			{
 				"id": 9,
 				"name": "Facility Management",
 				"icon": "tji-service-3",
-				"path": "/services/facility-management"
+				"path": "/services"
 			},
 			{
 				"id": 10,
 				"name": "Janitorial and Pantry Services",
 				"icon": "tji-service-4",
-				"path": "/services/janitorial-pantry"
+				"path": "/services/janitorial-and-pantry-services"
 			},
 			{
 				"id": 11,
 				"name": "Washroom Hygiene and Pest Control",
 				"icon": "tji-service-5",
-				"path": "/services/washroom-hygiene-pest-control"
+				"path": "/services/washroom-hygiene-and-pest-control"
 			},
 			{
 				"id": 12,
@@ -80,7 +80,7 @@
 				"id": 13,
 				"name": "Mechanized Housekeeping Services",
 				"icon": "tji-service-1",
-				"path": "/services/mechanized-housekeeping"
+				"path": "/services/mechanized-housekeeping-services"
 			},
 			{
 				"id": 14,
@@ -89,22 +89,10 @@
 				"path": "/services/electromechanical-services"
 			},
 			{
-				"id": 15,
-				"name": "COVID Sanitization",
-				"icon": "tji-service-3",
-				"path": "/services/covid-sanitization"
-			},
-			{
 				"id": 16,
 				"name": "Customer Facilitation Services/Ticketing",
 				"icon": "tji-service-4",
-				"path": "/services/customer-facilitation-ticketing"
-			},
-			{
-				"id": 17,
-				"name": "Information Security",
-				"icon": "tji-service-5",
-				"path": "/services/information-security"
+				"path": "/services/customer-facilitation-services-ticketing"
 			},
 			{
 				"id": 18,
@@ -128,13 +116,13 @@
 				"id": 21,
 				"name": "Integrated Smart Traffic Management",
 				"icon": "tji-service-3",
-				"path": "/services/smart-traffic-management"
+				"path": "/services/integrated-smart-traffic-management"
 			},
 			{
 				"id": 22,
 				"name": "Incidence Response Mechanism",
 				"icon": "tji-service-4",
-				"path": "/services/incidence-response"
+				"path": "/services/incidence-response-mechanism"
 			},
 			{
 				"id": 23,
@@ -155,12 +143,6 @@
 				"path": "/services/access-control"
 			},
 			{
-				"id": 26,
-				"name": "Skills & Training",
-				"icon": "tji-service-2",
-				"path": "/services/skills-training"
-			},
-			{
 				"id": 27,
 				"name": "Soft Skills",
 				"icon": "tji-service-3",
@@ -176,7 +158,7 @@
 				"id": 29,
 				"name": "Greeting Etiquettes and Basic Manners",
 				"icon": "tji-service-5",
-				"path": "/services/greeting-etiquettes"
+				"path": "/services/greeting-etiquettes-and-basic-manners"
 			},
 			{
 				"id": 30,
@@ -241,38 +223,18 @@
 	},
 	{
 		"id": 3,
-		"name": "Sustainable Impact",
-		"path": "/sustainable-impact",
+		"name": "Our Products",
+		"path": "/products",
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Environmental Sustainability",
-				"path": "/sustainable-impact/environmental"
+				"name": "Incident Report & Management System",
+				"path": "/products/incident-report-management"
 			},
 			{
 				"id": 2,
-				"name": "Social Responsibility",
-				"path": "/sustainable-impact/social-responsibility"
-			},
-			{
-				"id": 3,
-				"name": "ESG Reporting",
-				"path": "/sustainable-impact/esg-reporting"
-			},
-			{
-				"id": 4,
-				"name": "Carbon Footprint Reduction",
-				"path": "/sustainable-impact/carbon-footprint"
-			},
-			{
-				"id": 5,
-				"name": "Sustainable Supply Chain",
-				"path": "/sustainable-impact/supply-chain"
-			},
-			{
-				"id": 6,
-				"name": "Community Impact",
-				"path": "/sustainable-impact/community-impact"
+				"name": "AI Based Security System",
+				"path": "/products/ai-based-security"
 			}
 		]
 	},

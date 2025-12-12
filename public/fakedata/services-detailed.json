@@ -108,15 +108,6 @@
 		"description": "Powering Your Operations. Technical teams managing HVAC, electrical systems, and plumbing with preventive maintenance and 24/7 support."
 	},
 	{
-		"id": 13,
-		"slug": "covid-sanitization",
-		"title": "COVID Sanitization",
-		"category": "Facility Management",
-		"image": "/images/service/service-1.webp",
-		"content": "Specialized COVID sanitization services to ensure safe and hygienic environments. Our services include deep sanitization, fogging, surface disinfection, and regular sanitization programs following health guidelines.",
-		"description": "Specialized COVID sanitization services for safe and hygienic environments following health guidelines."
-	},
-	{
 		"id": 14,
 		"slug": "customer-facilitation-services-ticketing",
 		"title": "Customer Facilitation Services/Ticketing",

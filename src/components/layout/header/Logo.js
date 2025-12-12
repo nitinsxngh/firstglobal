@@ -7,7 +7,7 @@ const Logo = ({ headerType, isStickyHeader }) => {
 		<div className="site_logo">
 			<Link className="logo" href="/">
 				<Image
-					src="/images/logos/first-global-logo-mjE721n2Z2tZnzLL - Edited.png"
+					src="/logo/firstglobal.png"
 					alt="Firstglobal.io Logo"
 					width={544}
 					height={152}

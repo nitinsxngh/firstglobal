@@ -1,0 +1,211 @@
+"use client";
+import BootstrapWrapper from "@/components/shared/wrappers/BootstrapWrapper";
+import Image from "next/image";
+import Link from "next/link";
+import CtaSidebar from "../cta/CtaSidebar";
+
+const ProductDetailsSlug = ({ product, allProducts, prevProduct, nextProduct }) => {
+	const { title, description, image, content } = product || {};
+	const sidebarItems = allProducts?.slice(0, 6);
+
+	return (
+		<section className="tj-service-area section-gap">
+			<div className="container">
+				<div className="row row-gap-5">
+					<div className="col-lg-8">
+						<div className="post-details-wrapper">
+							<div className="blog-images wow fadeInUp" data-wow-delay=".1s">
+								<Image
+									src={image || "/images/service/service-details.webp"}
+									alt={title || "Product Image"}
+									width={870}
+									height={450}
+									style={{ height: "auto", width: "100%", borderRadius: "12px" }}
+								/>
+							</div>
+							<h2 className="title title-anim">{title}</h2>
+							{description && (
+								<p
+									className="wow fadeInUp"
+									data-wow-delay=".2s"
+									style={{
+										fontSize: "18px",
+										fontWeight: "500",
+										color: "#333",
+										marginBottom: "30px",
+										lineHeight: "1.8",
+									}}
+								>
+									{description}
+								</p>
+							)}
+							<div className="blog-text">
+								{content && (
+									<div className="wow fadeInUp" data-wow-delay=".3s">
+										{content.split("\n").map((para, index) => {
+											if (!para.trim()) return null;
+											
+											if (para.startsWith("•")) {
+												return (
+													<ul key={index} style={{ marginBottom: "20px", paddingLeft: "20px" }}>
+														<li style={{ marginBottom: "10px", lineHeight: "1.8" }}>
+															{para.substring(1).trim()}
+														</li>
+													</ul>
+												);
+											}
+											
+											if (para.endsWith(":") && para.length < 50) {
+												return (
+													<h4
+														key={index}
+														style={{
+															marginTop: "30px",
+															marginBottom: "15px",
+															fontWeight: "600",
+															fontSize: "20px",
+															color: "#1a1a1a",
+														}}
+													>
+														{para}
+													</h4>
+												);
+											}
+											
+											return (
+												<p
+													key={index}
+													style={{
+														marginBottom: "20px",
+														lineHeight: "1.8",
+														color: "#666",
+													}}
+												>
+													{para.trim()}
+												</p>
+											);
+										})}
+									</div>
+								)}
+							</div>
+
+							{/* Navigation */}
+							<div className="service-navigation">
+								<div className="row">
+									{prevProduct && (
+										<div className="col-md-6">
+											<Link
+												href={`/products/${prevProduct.slug}`}
+												className="service-nav-link service-nav-prev wow fadeInUp"
+												data-wow-delay=".3s"
+											>
+												<span className="nav-label">Previous Product</span>
+												<h6 className="nav-title">{prevProduct.title}</h6>
+											</Link>
+										</div>
+									)}
+									{nextProduct && (
+										<div
+											className={`col-md-6 ${!prevProduct ? "offset-md-6" : ""}`}
+										>
+											<Link
+												href={`/products/${nextProduct.slug}`}
+												className="service-nav-link service-nav-next wow fadeInUp text-end"
+												data-wow-delay=".3s"
+											>
+												<span className="nav-label">Next Product</span>
+												<h6 className="nav-title">{nextProduct.title}</h6>
+											</Link>
+										</div>
+									)}
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<BootstrapWrapper>
+							<CtaSidebar />
+							<div className="service-sidebar">
+								<div className="sidebar-widget">
+									<h4 className="widget-title">All Products</h4>
+									<ul className="service-list">
+										{sidebarItems?.map((prod) => (
+											<li key={prod.slug}>
+												<Link
+													href={`/products/${prod.slug}`}
+													className={prod.slug === product.slug ? "active" : ""}
+												>
+													{prod.title}
+												</Link>
+											</li>
+										))}
+									</ul>
+								</div>
+							</div>
+						</BootstrapWrapper>
+					</div>
+				</div>
+			</div>
+			<style jsx>{`
+				.service-nav-link {
+					display: block;
+					padding: 20px;
+					background: #f8f9fa;
+					border-radius: 8px;
+					text-decoration: none;
+					color: #333;
+					transition: all 0.3s ease;
+					margin-top: 40px;
+				}
+				.service-nav-link:hover {
+					background: #e9ecef;
+					color: #d3b038;
+				}
+				.nav-label {
+					display: block;
+					font-size: 12px;
+					color: #666;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					margin-bottom: 8px;
+				}
+				.nav-title {
+					font-size: 16px;
+					font-weight: 600;
+					margin: 0;
+				}
+				.service-list {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+				}
+				.service-list li {
+					margin-bottom: 10px;
+				}
+				.service-list a {
+					display: block;
+					padding: 12px 16px;
+					background: #f8f9fa;
+					border-radius: 4px;
+					text-decoration: none;
+					color: #333;
+					transition: all 0.3s ease;
+				}
+				.service-list a:hover,
+				.service-list a.active {
+					background: #d3b038;
+					color: #fff;
+				}
+				.widget-title {
+					font-size: 20px;
+					font-weight: 600;
+					margin-bottom: 20px;
+					color: #1a1a1a;
+				}
+			`}</style>
+		</section>
+	);
+};
+
+export default ProductDetailsSlug;
+

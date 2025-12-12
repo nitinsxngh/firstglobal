@@ -7,15 +7,36 @@ import { Autoplay, EffectFade, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Hero2 = () => {
 	const [controlledMainSwiper, setControlledMainSwiper] = useState(null);
+	const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 	const videoRef = useRef(null);
+	const mainSwiperRef = useRef(null);
 
+	// Initialize video on mount
 	useEffect(() => {
-		if (videoRef.current) {
+		if (videoRef.current && heroSlides[0]) {
+			videoRef.current.src = heroSlides[0].video;
+			videoRef.current.load();
 			videoRef.current.play().catch((error) => {
 				console.log("Video autoplay prevented:", error);
 			});
 		}
 	}, []);
+
+	// Update video when slide changes
+	useEffect(() => {
+		if (videoRef.current && heroSlides[activeSlideIndex]) {
+			const newVideoSrc = heroSlides[activeSlideIndex].video;
+			const currentSrc = videoRef.current.currentSrc || videoRef.current.src;
+			if (!currentSrc.includes(newVideoSrc.split('/').pop())) {
+				videoRef.current.src = newVideoSrc;
+				videoRef.current.load();
+				videoRef.current.play().catch((error) => {
+					console.log("Video autoplay prevented:", error);
+				});
+			}
+		}
+	}, [activeSlideIndex]);
+
 	const heroSlides = [
 		{
 			subtitle: "Fully Compliant & Certified Service Provider",
@@ -26,29 +47,32 @@ const Hero2 = () => {
 			),
 			desc: "Providing scenario-based and client-focused security services.",
 			img: "/images/hero/slider-1.webp",
-			thumbImg: "/images/hero/slider-thumb-1.webp",
+			thumbImg: "/hero/security.png",
+			video: "/hero/security.mp4",
 		},
 		{
-			subtitle: "100+ Clients from 16+ Industries",
+			subtitle: "Comprehensive Facility Management Solutions",
 			title: (
 				<>
-					Trusted Security Solutions <span>Provider.</span>
+					Maintaining Excellence in <span>Operations.</span>
 				</>
 			),
-			desc: "Combining experience, skills, and advanced technology to address complex security needs.",
+			desc: "Delivering integrated facility management services with precision and reliability.",
 			img: "/images/hero/slider-2.webp",
-			thumbImg: "/images/hero/slider-thumb-2.webp",
+			thumbImg: "/hero/maintainace.png",
+			video: "/hero/management.mp4",
 		},
 		{
-			subtitle: "30,000+ Staff Members | 47+ Training Centers",
+			subtitle: "Advanced Technology & Innovation",
 			title: (
 				<>
-					Ethics, Integrity, and <span>Excellence.</span>
+					Technology-Driven Security <span>Solutions.</span>
 				</>
 			),
-			desc: "Emphasizing ethics, integrity, and excellence in service.",
+			desc: "Leveraging cutting-edge technology to enhance security and operational efficiency.",
 			img: "/images/hero/slider-3.webp",
-			thumbImg: "/images/hero/slider-thumb-3.webp",
+			thumbImg: "/hero/technology.png",
+			video: "/hero/technology.mp4",
 		},
 	];
 	return (
@@ -118,7 +142,7 @@ const Hero2 = () => {
 						objectPosition: "center center",
 					}}
 				>
-					<source src="/video/Firstglobal.io-poster.mp4" type="video/mp4" />
+					<source src={heroSlides[activeSlideIndex]?.video || "/hero/security.mp4"} type="video/mp4" />
 				</video>
 				{/* Linear gradient overlay - solid on left, transparent on right */}
 				<div
@@ -134,6 +158,12 @@ const Hero2 = () => {
 				></div>
 			</div>
 			<Swiper
+				onSwiper={(swiper) => {
+					mainSwiperRef.current = swiper;
+				}}
+				onSlideChange={(swiper) => {
+					setActiveSlideIndex(swiper.realIndex);
+				}}
 				slidesPerView={1}
 				spaceBetween={0}
 				loop={true}
@@ -146,11 +176,16 @@ const Hero2 = () => {
 				className="hero-slider"
 				style={{ position: "relative", zIndex: 2, backgroundColor: "transparent" }}
 			>
-				{heroSlides.map(({ img, title, desc }, idx) => (
+				{heroSlides.map(({ subtitle, title, desc }, idx) => (
 					<SwiperSlide key={idx} className="tj-slider-item" style={{ backgroundColor: "transparent" }}>
 						<div className="container">
 							<div className="slider-wrapper">
 								<div className="slider-content">
+									{subtitle && (
+										<div className="slider-subtitle" style={{ color: "#666", fontSize: "14px", fontWeight: "500", marginBottom: "10px", textTransform: "uppercase", letterSpacing: "1px" }}>
+											{subtitle}
+										</div>
+									)}
 									<h1 className="slider-title" style={{ color: "#1a1a1a" }}>{title}</h1>
 									<div className="slider-desc" style={{ color: "#4a4a4a" }}>{desc}</div>
 									<div className="slider-btn">
@@ -192,16 +227,30 @@ const Hero2 = () => {
 				className="hero-thumb wow fadeIn"
 				data-wow-delay="2s"
 				style={{ position: "relative", zIndex: 2 }}
+				onSlideChange={(swiper) => {
+					if (mainSwiperRef.current) {
+						mainSwiperRef.current.slideTo(swiper.activeIndex);
+					}
+				}}
 			>
 				{heroSlides.map(
-					({ thumbImg = "/images/hero/slider-thumb-1.webp" }, idx) => (
-						<SwiperSlide key={idx} className="thumb-item">
+					({ thumbImg }, idx) => (
+						<SwiperSlide 
+							key={idx} 
+							className="thumb-item"
+							onClick={() => {
+								if (mainSwiperRef.current) {
+									mainSwiperRef.current.slideTo(idx);
+								}
+							}}
+							style={{ cursor: "pointer" }}
+						>
 							<Image
 								src={thumbImg}
 								alt="images"
 								width={80}
 								height={80}
-								style={{ height: "auto" }}
+								style={{ height: "auto", borderRadius: "8px" }}
 							/>
 						</SwiperSlide>
 					)

@@ -13,7 +13,7 @@ const About3 = ({ type }) => {
 							<div className="about-img overflow-hidden">
 								<Image
 									data-speed=".8"
-									src="/images/about/about-5.webp"
+									src="/images/about/about-main.png"
 									alt=""
 									width={591}
 									height={639}
@@ -94,9 +94,9 @@ const About3 = ({ type }) => {
 								We don't just deploy people - we create operational systems that work, stay reliable, and support your business without interruption.
 							</p>
 						</div>
-						<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
+						{/* <div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
 							<ButtonPrimary text={"Learn More About Us"} url={"/about"} />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

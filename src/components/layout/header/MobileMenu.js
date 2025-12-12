@@ -23,7 +23,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/first-global-logo-mjE721n2Z2tZnzLL - Edited.png" alt="Firstglobal.io Logo" />
+									<img src="/logo/firstglobal.png" alt="Firstglobal.io Logo" />
 								</Link>
 							</div>
 							<div className="hamburger_close">

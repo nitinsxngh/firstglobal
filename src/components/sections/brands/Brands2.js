@@ -11,7 +11,7 @@ const Brands2 = () => {
 							data-wow-delay=".3s"
 						>
 							<h5 className="sec-title">
-								Join Over <span className="client-numbers">1000+</span>{" "}
+								Join Over <span className="client-numbers">100+</span>{" "}
 								Companies with
 								<span className="client-text">Firstglobal.io</span> Here
 							</h5>

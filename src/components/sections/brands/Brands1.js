@@ -13,7 +13,7 @@ const Brands1 = ({ type = 1 }) => {
 					<div className="col-12">
 						<div className="client-content">
 							<h5 className="sec-title">
-								Join Over <span className="client-numbers">1000+</span>{" "}
+								Join Over <span className="client-numbers">100+</span>{" "}
 								Companies with
 								<span className="client-text">Firstglobal.io</span> Here
 							</h5>

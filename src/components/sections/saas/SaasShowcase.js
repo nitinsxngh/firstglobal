@@ -216,7 +216,7 @@ const SaasShowcase = () => {
 	}, []);
 
 	return (
-		<section className="tj-saas-showcase section-gap section-gap-x">
+		<section className="tj-saas-showcase section-gap section-gap-x" style={{ paddingTop: "100px" }}>
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
@@ -384,6 +384,7 @@ const SaasShowcase = () => {
 						#f8f9fa 100%
 					);
 					overflow: hidden;
+					padding-top: 100px;
 				}
 				.saas-showcase-container {
 					position: relative;

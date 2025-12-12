@@ -29,16 +29,16 @@ const Footer = () => {
 								<h5 className="title">Services</h5>
 								<ul>
 									<li>
-										<Link href="/services/security-services">Security Services</Link>
+										<Link href="/services">Security Services</Link>
 									</li>
 									<li>
-										<Link href="/services/facility-management">Facility Management</Link>
+										<Link href="/services">Facility Management</Link>
 									</li>
 									<li>
-										<Link href="/services/information-security">Information Security</Link>
+										<Link href="/services">Information Security</Link>
 									</li>
 									<li>
-										<Link href="/services/skills-training">Skills & Training</Link>
+										<Link href="/services">Skills & Training</Link>
 									</li>
 								</ul>
 							</div>
@@ -53,19 +53,20 @@ const Footer = () => {
 									<li>
 										<Link href="/contact">Contact us</Link>
 									</li>
-									<li>
+									{/* <li>
 										<Link href="/team">Team Member</Link>
-									</li>
-									<li>
-										<Link href="#">Recognitions</Link>
-									</li>
-									<li>
-										<Link href="/careers">
-											Careers <span className="badge">New</span>
-										</Link>
-									</li>
+									</li> */}
 									<li>
 										<Link href="#">Feedback</Link>
+									</li>
+									<li>
+										<Link href="/privacy-policy">Privacy Policy</Link>
+									</li>
+									<li>
+										<Link href="/terms-and-conditions">Terms & Condition</Link>
+									</li>
+									<li>
+										<Link href="/disclaimer">Disclaimer</Link>
 									</li>
 								</ul>
 							</div>

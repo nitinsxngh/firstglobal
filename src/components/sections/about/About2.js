@@ -49,7 +49,7 @@ const About2 = () => {
 							</div>
 							<div className="video-img wow fadeInRight" data-wow-delay=".7s">
 								<Image
-									src="/images/about/about-3.webp"
+									src="/images/about/video-placeholder.png"
 									alt="Image"
 									width={120}
 									height={320}
@@ -57,7 +57,8 @@ const About2 = () => {
 								<PopupVideo>
 									<Link
 										className="video-btn video-popup glightbox"
-										href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados"
+										href="/hero/technology.mp4"
+										data-type="video"
 									>
 										<span>
 											<i className="tji-play"></i>
@@ -79,13 +80,13 @@ const About2 = () => {
 							<div className="customers">
 								<ul>
 									<li className="wow fadeInLeft" data-wow-delay=".3s">
-										<img src="/images/testimonial/client-1.webp" alt="" />
+										<img src="/hero/security.png" alt="Security Services" />
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".4s">
-										<img src="/images/testimonial/client-2.webp" alt="" />
+										<img src="/hero/maintainace.png" alt="Facility Management" />
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".5s">
-										<img src="/images/testimonial/client-3.webp" alt="" />
+										<img src="/hero/technology.png" alt="Technology Solutions" />
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<span>
